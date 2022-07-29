@@ -6,7 +6,6 @@ Welcome, this is SpeakEasy. It is a prototype of a public speaking assistive mob
 
 
 ## Credits
-This application was developed by SoCS Team Project Group CS10 at the Univeristy of Glasgow.
 
 - Ben Logie: 2454767L@student.gla.ac.uk
 
