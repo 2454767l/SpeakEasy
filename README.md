@@ -24,7 +24,8 @@ In the command prompt, navigate to the project directory and enter the following
 - `flutter pub add percent_indicator==4.2.2`
 - `flutter pub add cupertino_icons==1.0.2`
 
-
+## Features
+This Mobile Application was developed using Android Studio and the Flutter Framework. 
 
 ## Credits
 
