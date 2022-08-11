@@ -11,9 +11,9 @@ Tools, Packages and Flutter Plugins required to sucessfully install this project
 - `DevTools version 2.12.2` 
 - `firebase_core version 1.20.0`
 - `firebase_storage version 10.3.4`
--`image_picker version 0.8.5+3`
--`percent_indicator version 4.2.2`
--`cupertino_icons version 1.0.2`
+- `image_picker version 0.8.5+3`
+- `percent_indicator version 4.2.2`
+- `cupertino_icons version 1.0.2`
 
 
 
