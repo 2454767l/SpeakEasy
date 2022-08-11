@@ -25,7 +25,7 @@ In the command prompt, navigate to the project directory and enter the following
 - `flutter pub add cupertino_icons==1.0.2`
 
 ## Features
-This Mobile Application was developed using Android Studio and the Flutter Framework. 
+This Mobile Application was developed using Android Studio Development Environment with the Flutter Framework. 
 
 ## Credits
 
