@@ -16,6 +16,14 @@ Tools, Packages and Flutter Plugins required to sucessfully install this project
 - `cupertino_icons version 1.0.2`
 
 
+## Installation
+In the command prompt, navigate to the project directory and enter the following commands into your command prompt to install the required modules:
+- `flutter pub add firebase_core==1.20.0`
+- `flutter pub add firebase_storage==10.3.4`
+- `flutter pub add image_picker==0.8.5+3`
+- `flutter pub add percent_indicator==4.2.2`
+- `flutter pub add cupertino_icons==1.0.2`
+
 
 
 ## Credits
