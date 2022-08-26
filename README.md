@@ -21,7 +21,10 @@ In the command prompt, navigate to the project directory and enter the following
 - `flutter pub get'
 
 ## Features
-This Mobile Application was developed using Android Studio Development Environment with the Flutter Framework. 
+This Mobile Application was developed using Android Studio Development Environment with the Flutter Framework. The Application is currently a prototype and is not complete. The current state of the application is a Skeleton of the Speakeasy App with Video recording and uploading to firebase functionality that can be found by navigating to the 'Practice' page. 
+
+## Initializing Firebase in the App
+As mentioned above, this SpeakEasy Prototype includes the feature to upload video recordings to FireBase. In order to make use of this functionality, you will need to update the firebase repository linked with the App to your own firebase repository, follow this link for a tutorial on how to do this: https://www.youtube.com/watch?v=EXp0gq9kGxI&t=888s
 
 ## Credits
 
