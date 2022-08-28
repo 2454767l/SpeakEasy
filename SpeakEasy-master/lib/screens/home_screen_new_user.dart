@@ -8,8 +8,7 @@ void main() {
 
 class NewScreen_home extends StatelessWidget {
   const NewScreen_home({Key? key}) : super(key: key);
-  //final _selectedIndex = 0;
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,7 +18,8 @@ class NewScreen_home extends StatelessWidget {
           textTheme: const TextTheme(
             titleLarge: TitleTextStyle,
             bodyMedium: bodyTextStyle,
-          )),
+          )
+      ),
       home: const MyApp(),
     );
   }
@@ -34,9 +34,6 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
 
-  //int _currentIndex = 0;
-  //final List<Widget> _children = [];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,7 +42,8 @@ class _MyAppState extends State<MyApp> {
         title: const Text('Home', style: TextStyle(
           fontSize: 40.0,
           color: Color(0xFFAFF4C6),
-        )),
+        )
+        ),
         centerTitle: true,
         actions: [
           IconButton(
@@ -53,7 +51,6 @@ class _MyAppState extends State<MyApp> {
             onPressed: () {},
           ),
         ],
-        brightness: Brightness.light,
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(5)
         ),
@@ -67,14 +64,6 @@ class _MyAppState extends State<MyApp> {
       body: Center(
         child: Column(
           children: [
-            /*Container(
-                padding: const EdgeInsets.fromLTRB(16.0, 50.0, 16.0, 4.0),
-                child: const Text('Home',
-                    style: TextStyle(
-                      fontSize: 50.0,
-                      color: Color(0xFFAFF4C6),
-                    )),
-              ),*/
             const SizedBox(height: 5),
             Container(
               padding: const EdgeInsets.fromLTRB(16.0, 10.0, 16.0, 4.0),
@@ -92,7 +81,8 @@ class _MyAppState extends State<MyApp> {
                       fontSize: 18.0,
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
-                    )),
+                    )
+                ),
               ),
             ),
             const SizedBox(height: 60),
@@ -112,14 +102,13 @@ class _MyAppState extends State<MyApp> {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
-                  ),),
+                  ),
+                ),
               ),
             ),
-            //_children[_currentIndex],
           ],
         ),
       ),
-
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:speakeasy/screens/get_started_screen_2.dart';
+
 class ProfileScreen_1 extends StatefulWidget {
   const ProfileScreen_1({Key? key}) : super(key: key);
 
@@ -145,11 +146,7 @@ class _NewScreenState extends State<ProfileScreen_1> {
     ),),
     //icon: Icon(Icons.arrow_circle_right_outlined),
     backgroundColor: Colors.blue,
-    onPressed: (){
-      Navigator.push(context,
-          MaterialPageRoute(builder: (context) => NewScreen2())
-      );
-    },
+    onPressed: (){},
   );
 
   MaterialStateProperty<Color> getColor(Color color, Color colorPressed) {
@@ -163,5 +160,4 @@ class _NewScreenState extends State<ProfileScreen_1> {
     return MaterialStateProperty.resolveWith(getColor);
   }
 
-//Widget buildNavigationButton => FloatingActionButton() {}
 }
